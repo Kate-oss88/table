@@ -13,7 +13,7 @@
 }
 
 .header {
-	max-width: 1180px; width: 100%;
+	width: 1180px;
 	border: none;
 }
 .header thead th {
@@ -40,14 +40,14 @@
 }
 /*Цель на месяц*/
 
-/*ДНИ НЕДЕЛИ С ТЕКСТОВЫМ ПОЛЕМ ИТОГИ*/
+/*ДНИ НЕДЕЛИ И ТЕКСТОВЫМ ПОЛЕМ ИТОГИ*/
 .blok1 {
 	position: relative;
     left: 250; /*отступ от объекта от левого края*/
     right: 0; /*отступ от объекта от правого края*/
     top: 10; /*отступ от объекта от верхнего края*/
     bottom: 0; /*отступ от объекта от нижнего края*/
-	max-width: 930px; width: 100%;
+	width: 930px;
 	resize: none;
 	padding:15px;
 	border-radius:15px;
@@ -55,11 +55,11 @@
 	box-shadow:4px 4px 10px rgba(0, 0, 0, 0.06);
 	height:280px;
 }
-/*ДНИ НЕДЕЛИ С ТЕКСТОВЫМ ПОЛЕМ ИТОГИ*/
+/*ДНИ НЕДЕЛИ И ТЕКСТОВЫМ ПОЛЕМ ИТОГИ*/
 
 /*трекер привычек */
 .habit tracker {
-	width: 100%;
+	width: 1070px;
 	border: none;
 	margin-bottom: 20px;
 }
@@ -91,7 +91,7 @@
 
 /* таблица дни недели */
 .daysoftheweek {
-    width: 100%;
+	width: 1070px;
 	border: none;
 	margin-bottom: 20px;
 	border-collapse: separate;
@@ -152,7 +152,7 @@
 	background-color: #fafafa;
   }
   textarea {
-	max-width: 960px;width: 100%;
+	width: 955px;
 	resize: none;
 	padding:15px;
 	border-radius:15px;
